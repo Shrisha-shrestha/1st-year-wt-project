@@ -1,0 +1,761 @@
+p {
+    font-family: 'Raleway';
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+    background: url(../images/bg2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::placeholder {
+    color: #b7b7b7;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #b7b7b7;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #b7b7b7;
+}
+
+.input-text {
+    color: #b7b7b7;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    padding: 5px 15px;
+    background: #fff;
+    border: 1px solid #b7b7b7;
+}
+
+.input-textarea {
+    color: #b7b7b7;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    padding: 5px 15px;
+    background: #fff;
+    border: 1px solid #b7b7b7;
+}
+
+.input-submit {
+    color: #1890d3;
+    font-size: 16px;
+    border: 2px solid #1890d3;
+    background: transparent;
+    width: 100%;
+    padding: 10px 25px;
+    transition: 0.50s;
+    -webkit-transition: 0.50s;
+    -moz-transition: 0.50s;
+    -ms-transition: 0.50s;
+    -o-transition: 0.50s;
+    border-radius: 25px;
+    font-family: 'Josefin Sans';
+}
+
+.input-submit:hover {
+    color: #fff;
+    background: #1890d3;
+    border: 2px solid #1890d3;
+}
+
+.button1 {
+    font-family: 'Josefin Sans';
+    font-weight: normal;
+    font-style: normal;
+    color: #2095d4;
+    font-size: 14px;
+    border: 2px solid #2095d4;
+    background: transparent;
+    padding: 10px 25px;
+    transition: 0.50s;
+    -webkit-transition: 0.50s;
+    -moz-transition: 0.50s;
+    -ms-transition: 0.50s;
+    -o-transition: 0.50s;
+    border-radius: 25px;
+}
+
+.button1:hover {
+    color: #fff;
+    background: #2095d4;
+    border: 2px solid #2095d4;
+}
+
+.banner-content {
+    position: relative;
+    text-align: center;
+}
+
+.banner-content img {
+    width: 100%;
+}
+
+.banner-content .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner-content .centered h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    margin: 0;
+    line-height: 35px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.banner-content .centered h1 span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.one {
+    background: #fff;
+    padding: 120px 0 80px 0;
+    text-align: center;
+}
+
+.one h1 {
+    color: #121212;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    line-height: 35px;
+    margin: 0;
+}
+
+.two {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.two h1 {
+    color: #121212;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    margin: 0;
+    line-height: 34px;
+}
+
+.two p {
+    color: #333;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.three {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.three h1 {
+    color: #121212;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    margin: 0;
+    line-height: 37px;
+}
+
+.three p {
+    color: #333;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.four {
+    background: url(../images/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.four h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    line-height: 35px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+.four p {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.four h2 {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    margin: 0;
+}
+
+.four .s-box {
+    background: #2095d4;
+    padding: 20px;
+}
+
+.four img {
+    width: 100%;
+}
+
+.five {
+    background: url(../images/bg2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.five h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    line-height: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+.five img {
+    margin: 0 auto;
+}
+
+.top-footer {
+    padding: 80px 0;
+    background: transparent;
+}
+
+.top-footer p {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.top-footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-footer p a:hover {
+    color: #2095d4;
+    transition: all ease-in 0.2s;
+}
+
+.top-footer h1 {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+}
+
+.top-footer h2 {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+}
+
+.top-footer .fa {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer {
+    padding: 15px 0;
+    background: transparent;
+    border-top: 1px solid #6b6d6d;
+}
+
+.footer p {
+    color: #ccc;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Inner Page */
+
+.page {
+    padding: 40px 0px 40px 0;
+    background: #ededed !important;
+    position: relative !important;
+}
+
+.page .inner-cont {
+    background: white;
+    margin-top: -60px;
+    box-shadow: 0 10px 10px 0px #666;
+    padding: 25px 25px 80px 25px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.page h2 {
+    font-size: 22px;
+    font-family: 'Josefin Sans';
+    color: #2095d4;
+}
+
+.page h4 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Josefin Sans";
+    margin-bottom: -10px;
+    color: #121212;
+}
+
+.page h3 {
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    color: #1aadf3;
+}
+
+.page h3 span {
+    font-family: 'Josefin Sans';
+    color: #ccc;
+    font-size: 14px;
+}
+
+.page h5 {
+    font-family: 'Josefin Sans';
+    color: #2c2c2c;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.page p {
+    font-family: 'Josefin Sans';
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.page .fa {
+    font-size: 8px;
+}
+
+.reset {
+    margin: 0px !important;
+    padding: 0px !important
+}
+
+.margin-reset {
+    margin: 0px !important;
+}
+
+.padding-reset {
+    padding: 0px !important;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-top: 0px solid #FFF !important;
+}
+
+
+/* Header */
+
+.affix {
+    position: fixed;
+    top: 0px;
+    -webkit-transition: all .5s ease-in-out;
+    width: 100%;
+    z-index: 999999;
+    box-shadow: 0 1px 10px #666;
+    margin-bottom: 10px;
+}
+
+.affix-top {
+    position: static;
+    top: -35px;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.affix .header {
+    background: #fff;
+}
+
+.affix .header .center {
+    padding: 3px 0;
+}
+
+.affix .header img {
+    width: 37%;
+}
+
+.affix .center {
+    margin-top: 0px;
+}
+
+.affix .header-up {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header {
+    background-size: cover;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+}
+
+.logo {
+    z-index: 999;
+    position: absolute;
+}
+
+.center {
+    padding: 5px 0;
+}
+
+.header p {
+    font-family: 'Josefin Sans';
+    color: #494949;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    text-align: right;
+}
+
+
+/* Tap to Call */
+
+.taptocall {
+    color: #000;
+    font-size: 14px !important;
+    border: 1px solid #000;
+    font-family: 'Josefin sans';
+    width: 50%;
+    margin: 5px auto !important;
+    padding: 10px 0px;
+}
+
+.taptocall:hover {
+    background: #e1dfdf;
+    transition: .2s ease-in;
+    color: #000;
+}
+
+
+/* Menu */
+
+:after,
+ :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+
+/* Cool Heading */
+
+.heading {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+    font-family: "Poetsen One";
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+/* Owl Banner CSS */
+
+.owl-theme .owl-controls {
+    margin-top: 0px !important;
+}
+
+#owl-demo {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+}
+
+.owl-controls.clickable .owl-buttons div {
+    display: none !important;
+    border-radius: 0px !important;
+    width: 0px !important;
+    height: 0px !important;
+    line-height: 0px !important;
+    text-align: center;
+    color: transparent;
+    font-size: 0px !important;
+    background: rgba(0, 0, 0, 0) !important;
+    border-radius: 0px !important;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.items {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 20;
+    visibility: inherit;
+    opacity: 1;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.owl-pagination {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.owl-controls .owl-page span {
+    cursor: pointer;
+    position: relative !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 6px !important;
+    height: 6px !important;
+    border: 5px solid rgba(0, 0, 0, 0) !important;
+    display: inline-block;
+    margin-right: 2px !important;
+    margin-bottom: 0px !important;
+    -webkit-transition: background-color 0.2s, border-color 0.2s;
+    -moz-transition: background-color 0.2s, border-color 0.2s;
+    transition: background-color 0.2s, border-color 0.2s;
+    float: none !important;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.owl-controls .owl-page.active span {
+    background: #e6bb04 !important;
+    width: 6px !important;
+    height: 6px !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .center {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: inherit;
+    }
+    .services img {
+        width: 100%, margin-bottom: 20px;
+    }
+    .three img {
+        margin-bottom: 10px;
+        margin: 0 auto;
+    }
+    .page .inner-cont {
+        margin-top: inherit;
+    }
+    .header {
+        position: inherit !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top-header p {
+        text-align: center;
+    }
+    .button1 {
+        margin-bottom: 20px;
+    }
+    .header {
+        top: inherit;
+        background: #fff;
+        padding: 10px 0px;
+    }
+    .three {
+        text-align: center;
+        margin-top: 0;
+    }
+    .footer h2 {
+        text-align: center;
+    }
+    .footer img {
+        margin: 0 auto;
+    }
+    .footer p {
+        text-align: center !important;
+    }
+    .four {
+        text-align: center;
+    }
+    .affix {
+        position: inherit;
+    }
+    .four img {
+        margin: 0 auto;
+    }
+    .owl-controls {
+        display: none !important;
+    }
+    .testimonials-content .client-name {
+        text-align: center;
+    }
+    .two {
+        background: #fff;
+        padding: 80px 0 80px 0;
+        text-align: center;
+    }
+    .testimonials-content img {
+        margin: 0 auto;
+    }
+    .three .box::after {
+        display: none;
+    }
+    .three .box1::after {
+        display: none;
+    }
+    .five {
+        text-align: center;
+    }
+    .navbar .navbar-nav>li>a {
+        padding: 15px;
+    }
+    .dropdown-menu>li>a {
+        color: #121212;
+    }
+    .six {
+        text-align: center;
+    }
+    .welcome {
+        padding: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .owl-controls {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .owl-controls {
+        display: none !important;
+    }
+}
+
+.client-information img {
+    margin: 0 auto;
+}
+
+.testimonials-content {}
+
+.testimonials-content h2 {
+    color: #121212;
+    font-size: 25px;
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    margin: 0;
+    line-height: 32px;
+    text-align: center;
+}
+
+.testimonials-content .client-name {
+    font-size: 22px;
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    color: #2095d4;
+    display: block;
+    margin-top: 5px;
+}
+
+.testimonials-content .client-review {
+    display: block;
+    margin-bottom: 5px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Josefin Sans";
+}
+
+
+/* -- Here is owl pagination { display: none; } you can { display: block; } to show the pagigation buttons -- */
+
+#owl-demo1 .owl-pagination {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    display: none !important;
+}
+
+#owl-demo1 .owl-pagination .owl-page span {
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50% !important;
+    background: #fff;
+}
+
+#owl-demo1 .owl-pagination .active span {
+    background: #000000 !important;
+    border: 1px solid #005826 !important;
+    height: 15px !important;
+    width: 15px !important;
+}
