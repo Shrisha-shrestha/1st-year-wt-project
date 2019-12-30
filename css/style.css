@@ -218,7 +218,33 @@ body {
     font-family: 'Josefin Sans';
     font-weight: bold;
     margin: 0;
+
 }
+
+.four  a{
+	text-decoration: none;
+}
+
+
+.four .services{
+    overflow: hidden; 
+    margin: 0; padding: 0;
+   -webkit-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   transition: all linear 0.5s;
+}
+
+.four .services img{ 
+	width: 100%;
+	-webkit-transition: all linear 0.5s;
+	-moz-transition: all linear 0.5s;
+	transition: all linear 0.5s; 
+}
+
+.four .services:hover img{
+ transform: scale(1.1,1.1) ;
+   }
+
 
 .four .s-box {
     background: #2095d4;
@@ -429,7 +455,7 @@ body {
 
 .header {
     background-size: cover;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.7);
     padding: 0;
     z-index: 1;
     width: 100%;
